@@ -50,5 +50,5 @@ for (const test of testCases) {
 	});
 
 	// unmount component
-	cleanup();
+	afterEach(cleanup);
 }
