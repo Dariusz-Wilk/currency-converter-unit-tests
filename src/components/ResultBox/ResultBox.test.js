@@ -40,7 +40,7 @@ describe('Component ResultBox', () => {
 
 			expect(resultBox).toHaveTextContent(amountTest.expected);
 		});
-		cleanup();
+		afterEach(cleanup);
 	}
 
 	it('should render the proper info about conversion PLN -> PLN', () => {
